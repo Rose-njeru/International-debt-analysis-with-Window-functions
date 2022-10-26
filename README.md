@@ -24,6 +24,7 @@ Ranking Functions ROW_NUMBER (), DENSE (), DENSE_RANK () with OVER () clause wer
 and using CTE   to determine the top 3 most accumulated debts were 'Disbursements on external debt, long-term (DIS, current US$)','Principal repayments on external debt, long-term (AMT, current US$)’, and 'PPG, official creditors (DIS, current US$)'.
 ![image](https://user-images.githubusercontent.com/92436079/198061104-3e8fe868-044d-4c31-80da-6226d1cbbf79.png)
  The data used with Analytic Functions FIRST_VALUE (), LAST_VALUE (), NTH_VALUE and Frame_clause that is Frame_ units (ROW|RANGE) to show the relationship between current rows and frame rows, and frame_extent (CURRENT ROW, UNBOUNDED PRECEDING, UNBOUNDED FOLLOWING, PRECEDING, FOLLOWING) to show the start and end points of the frame.
+![image](https://user-images.githubusercontent.com/92436079/198065715-c69f12de-8060-48c7-8981-3ce11199e536.png) 
 LAG (), LEAD (), NTILE () analytic functions do not have to take the frame clause, therefore be used with OVER () clause and WINDOW d,therefoe
  LAG (), LEAD () showed the rows before and after the current row respectively while NTILE () showed equal distribution of buckets in an ordered partition.
  ![image](https://user-images.githubusercontent.com/92436079/198062615-9136e380-f9e6-4655-99c4-6a033aad74d9.png)
