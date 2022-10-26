@@ -1,3 +1,7 @@
+# Outline
+Introduction
+Data analysis
+# Introduction
 The International_debt CSV table consists of country_name,country_code,indicator_name,indicator_code and  debt  columms
 The task was to identify the accumulation of diffrebt debt indicators among countries,therefore with the use  Window functions;Aggregate Functions,Ranking Functions,Analytical Functions and Distribution Functions
 Firstly i imported the international_debt CSV file in My SQL Workbench then used SELECT,FROM clauses to have overview of the data
