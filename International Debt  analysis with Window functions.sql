@@ -32,6 +32,13 @@ SELECT country_name,debt,indicator_name,
 RANK() OVER(PARTITION BY country_name ORDER BY debt DESC ) AS rank_num
 FROM `internationaldebt`.`international_debt`;
 
+ WITH debts AS (SELECT country_name,debt,indicator_name,
+RANK() OVER(PARTITION BY country_name ORDER BY debt DESC ) AS rank_num
+FROM `internationaldebt`.`international_debt`)
+SELECT country_name,debt,indicator_name
+FROM  debts 
+WHERE rank_num BETWEEN 1 AND 3;
+
 SELECT country_name,debt,indicator_name,
 DENSE_RANK() OVER(PARTITION BY country_name ORDER BY debt DESC ) AS denserank_num
 FROM `internationaldebt`.`international_debt`;
