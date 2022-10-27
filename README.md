@@ -14,7 +14,7 @@ and 25 distinct debt indicators respectively
 ~ Determine the accumulation of different debt indicators by countries with Window functions
 * The Questions 
 ~ What is the running total, maximum, minimum and average debt accumulated? 
-~ What are the 3 top most debt indicators accumulated by countries? 
+~ What are the 3 top  debt indicators accumulated by countries? 
 ~ What else can I find using the data?
 #### Data analysis
 The first task was to identify the running total, maximum, minimum and average debt accumulated by countries using Aggregate functions SUM (), MAX (), MIN (), AVG () and the OVER () clause, therefore with WINDOW function I aliased the window specification (PARTITION BY country_name ORDER BY debt DESC) creating a WINDOW d.
