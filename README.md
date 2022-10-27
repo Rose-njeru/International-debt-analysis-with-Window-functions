@@ -4,7 +4,7 @@
 * Data Analysis
 
 #### Introduction
-The International debt CSV table consists of country_name, country_code, indicator_name, indicator_code and debt columns consisting of 2357 rows 
+The international  debt dataset was obtained from Kaggle that consisted of  International debt CSV table with  country_name, country_code, indicator_name, indicator_code,debt columns consisting of 2357 rows 
 ![image](https://user-images.githubusercontent.com/92436079/198059078-62d24116-9d41-4a36-9ba7-e6a6a81ef540.png)
 with 124  distinct countries
 ![image](https://user-images.githubusercontent.com/92436079/198059529-719cf980-67b2-43d4-8c81-3a835a1d65b7.png)
